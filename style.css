@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins" sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../Tutorials/ultra-hd-wazf67lzyh5q7k32.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 99;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    background:transparent;
+    color:#ffff;
+}
+
+wrapper input{
+    color:#ffff;
+}
+
+
+nav a{
+    position: relative;
+    font-size: 1.1em;
+    color:#ffff;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn{
+    font-size: 1.1em;
+    width: 130px;
+    height: 50px;
+    font-weight: 400;
+    margin-left: 40px;
+    border: 2px solid white;
+    background: transparent;
+    color:#ffff;
+    border-radius: 19px;
+    cursor: pointer;
+}
+
+wrapper{
+    width: 420px;
+    padding: 30px 40px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background:transparent;
+    box-shadow: 0 0 10px 2px;
+    border-radius: 40px;
+    backdrop-filter: blur(1px);
+}
+
+wrapper h1{
+    color:#ffff;
+    text-align: center;
+    font-size: 50px;
+}
+
+wrapper .username{
+    border:none;
+    outline: none;
+    height: 50px;
+    margin: 30px 0;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 500;
+    border:2px solid rgba(255,255,255,.3);
+    border-radius: 40px;
+    background:transparent;
+    cursor: pointer;
+}
+
+wrapper .password{
+    border:none;
+    outline:none;
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 500;
+    border:2px solid rgba(255,255,255,.3);
+    border-radius: 40px;
+    height: 50px;
+    margin: 30px 0;
+    background:transparent;
+    cursor: pointer;
+}
+
+wrapper .button{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,.3);
+    height: 50px;
+    color:#ffff;
+    margin: 30px 0;
+    border-radius: 40px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+
+wrapper .username::placeholder{
+    color:#ffff;
+}
+
+wrapper .password::placeholder{
+    color:#ffff;
+}
+
+wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    color:#ffff;
+    font-weight: 16px;
+}
+
+wrapper  a{
+    color:#ffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+wrapper input{
+    margin: 2px;
+    cursor: pointer;
+}
